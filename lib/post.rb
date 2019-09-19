@@ -1,9 +1,9 @@
 lass Post
-  attr_accessor :title, :artist 
+  attr_accessor :title, :author 
   
-  def initialize (title, artist)
+  def initialize (title, author)
     @title = title
-    @artist = artist
+    @author = author
   end
   
 end
